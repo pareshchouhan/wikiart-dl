@@ -1,5 +1,5 @@
-# wikiart-download-script-generator
-Wikiart download script generator generates scripts that you can use to download all artwork from a specific artist.
+# wikiart-dl
+wikiart-dl generates scripts that you can use to download all artwork from a specific artist.
 
 # Installation
 
