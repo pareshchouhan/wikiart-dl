@@ -33,6 +33,8 @@ function fetchRecursive(allURLS, url, pageIndex, pageThreshold) {
 				fetchRecursive(allURLS, url, pageIndex + 1, Math.ceil(authorData.AllPaintingsCount/authorData.PageSize) + 1);
 			} else {
 				console.log('got none');
+				generateScripts(allURLS);
+				return;
 			}
 		}).catch(err2 => {
 			// show error message.
@@ -47,7 +49,6 @@ function fetchRecursive(allURLS, url, pageIndex, pageThreshold) {
 function generateScripts(allURLS) {
 	// hide loader
 	const uniqueURLS = [...new Set(allURLS)];
-	console.log(uniqueURLS);
 	const buttonsDisabled = $('.btn-script-dl');
 	buttonsDisabled.removeClass('btn-disabled');
 	buttonsDisabled.removeAttr('disabled');
@@ -103,7 +104,6 @@ $('.btn-script-dl').click(function() {
 function downloadScript(scriptType) {
 	const artistId = $('#artist-id').val();
 	let scriptData = null;
-	console.log(scriptType);
 	let scriptSuffix = '.sh';
 	switch(scriptType) {
 		case 'windows-ps':
