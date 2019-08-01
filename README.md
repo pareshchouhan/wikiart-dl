@@ -17,4 +17,4 @@ Wikiart download script generator generates scripts that you can use to download
 * ???
 * Profit
 
-<img src="https://github.com/pareshchouhan/wikiart-dl/blob/master/how-to-dl.gif?raw=true" width="1366" height="768">
+<img src="https://github.com/pareshchouhan/wikiart-dl/blob/master/how-to-dl-2.gif?raw=true" width="1366" height="768">
