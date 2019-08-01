@@ -4,8 +4,8 @@
 wikiart-dl generates scripts that you can use to download all artwork from a specific artist.
 
 # Installation
-* Clone repo using `git lclone https://github.com/pareshchouhan/wikiart-dl.git`
-* Browser to chrome://extensions
+* Clone repo using `git clone https://github.com/pareshchouhan/wikiart-dl.git`
+* Browse to `chrome://extensions`
 * Select `load unpacked extension`, If it's not shown, enable developer mode toggle which is shown at top right of the screen.
 * Browse to newly cloned folder and select the folder, don't go inside it.
 
