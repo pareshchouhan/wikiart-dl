@@ -1,0 +1,35 @@
+body {
+	background: #232323;
+}
+
+#how-to-get-artist-name {
+	color: white;
+	padding-right: 12px;
+	cursor: pointer;
+}
+
+.btn {
+	color: black;
+	background: #ecd298d1;
+	border: 1px solid white;
+}
+
+.btn-disabled {
+	color: gray;
+}
+
+
+#generate-div {
+	display: flex;
+	width: 500px;
+	margin:auto;
+	justify-content: center;
+	margin-top: 30vh;
+	margin-bottom: 10vh;
+}
+#generated-script {
+	display: flex;
+	width: 500px;
+	margin:auto;
+	justify-content: space-around;
+}

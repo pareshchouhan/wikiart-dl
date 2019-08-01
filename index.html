@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>WikiArt-DL</title>
+	<link rel="stylesheet" href="home.css" />
+</head>
+<body>
+		<content>
+			<div id="generate-div">
+				<span id="how-to-get-artist-name">ⓘ</span><input type="text" id="artist-id"/>
+				<button class="btn" id="generate-script">Generate scripts</button>
+			</div>
+			<div id="generated-script">
+				<button disabled class="btn btn-disabled btn-script-dl" id="windows-ps">Windows PS</button>
+				<button disabled class="btn btn-disabled btn-script-dl" id="linux-wget">Linux wget</button>
+				<button disabled class="btn btn-disabled btn-script-dl" id="linux-curl">Linux cURL</button>
+				<button disabled class="btn btn-disabled btn-script-dl" id="osx-curl">OSX cURL</button>
+			</div>
+		</content>
+</body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="index.js"></script>
+</html>

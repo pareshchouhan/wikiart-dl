@@ -1,0 +1,19 @@
+{
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+	"browser_action": {
+		"default_popup": "index.html"
+	},
+	"description": "WikiArt-DL",
+	"icons": {
+		"128": "wikiart-dl.png"
+	},
+	"manifest_version": 2,
+	"name": "WikiArt-DL",
+	"short_name": "wikiart-dl",
+	"options_ui": {
+		"chrome_style": true,
+		"page": "options.html"
+	},
+    "permissions": [ "cookies", "<all_urls>", "storage", "webRequest", "webRequestBlocking"],
+	"version": "0.1"
+}
