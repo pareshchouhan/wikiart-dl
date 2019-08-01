@@ -1,10 +1,13 @@
-# wikiart-download-script-generator
-Wikiart download script generator generates scripts that you can use to download all artwork from a specific artist.
+<img src="https://github.com/pareshchouhan/wikiart-dl/blob/master/wikiart-dl.png?raw=true" />
+
+# wikiart-dl
+wikiart-dl generates scripts that you can use to download all artwork from a specific artist.
 
 # Installation
-
+* Clone repo using `git lclone https://github.com/pareshchouhan/wikiart-dl.git`
 * Browser to chrome://extensions
 * Select `load unpacked extension`, If it's not shown, enable developer mode toggle which is shown at top right of the screen.
+* Browse to newly cloned folder and select the folder, don't go inside it.
 
 # Usage
 * Search for your favourite artist on [Wiki Art](https://wikiart.org)
@@ -17,4 +20,4 @@ Wikiart download script generator generates scripts that you can use to download
 * ???
 * Profit
 
-<img src="https://github.com/pareshchouhan/wikiart-dl/blob/master/how-to-dl-2.gif?raw=true" width="1366" height="768">
+<img src="https://github.com/pareshchouhan/wikiart-dl/blob/master/how-to-dl-2.gif?raw=true" />
