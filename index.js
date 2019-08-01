@@ -62,7 +62,7 @@ function generateWindowsPS1Script(uniqueURLS) {
 	let windowsPSCmd = `mkdir -p wikiart-dl
 cd wikiart-dl
 echo 'Starting download'\n`;
-	windowsPSCmd += uniqueURLS.map(url => `Invoke-WebRequest ${url}`).join('\n');
+	windowsPSCmd += uniqueURLS.map(url => `Invoke-WebRequest "${url}"`).join('\n');
 	windowsPSCmd += `\necho 'Done Downloading'`;
 	return windowsPSCmd;
 }
@@ -72,7 +72,7 @@ function generateLinuxCURLScript(uniqueURLS) {
 mkdir -p wikiart-dl
 cd wikiart-dl
 echo 'Starting download'\n`;
-	linuxCURL += uniqueURLS.map(url => `curl ${url}`).join('\n');
+	linuxCURL += uniqueURLS.map(url => `curl -O "${url}"`).join('\n');
 	linuxCURL += `\necho 'Done Downloading'`;
 	return linuxCURL;
 }
@@ -82,7 +82,7 @@ function generateLinuxWgetScript(uniqueURLS) {
 mkdir -p wikiart-dl
 cd wikiart-dl
 echo 'Starting download'\n`;
-	linuxWGET += uniqueURLS.map(url => `wget ${url}`).join('\n');
+	linuxWGET += uniqueURLS.map(url => `wget "${url}"`).join('\n');
 	linuxWGET += `\necho 'Done Downloading'`;
 	return linuxWGET;
 }
@@ -92,7 +92,7 @@ function generateOSXCURLScript(uniqueURLS) {
 mkdir -p wikiart-dl
 cd wikiart-dl 
 echo 'Starting download'\n`;
-	OSCURL += uniqueURLS.map(url => `curl ${url}`).join('\n');
+	OSCURL += uniqueURLS.map(url => `curl -O "${url}"`).join('\n');
 	OSCURL += `\necho 'Done Downloading'`;
 	return OSCURL;
 }
