@@ -1,3 +1,5 @@
+<img src="https://github.com/pareshchouhan/wikiart-dl/blob/master/wikiart-dl.png?raw=true" />
+
 # wikiart-dl
 wikiart-dl generates scripts that you can use to download all artwork from a specific artist.
 
@@ -18,4 +20,4 @@ wikiart-dl generates scripts that you can use to download all artwork from a spe
 * ???
 * Profit
 
-<img src="https://github.com/pareshchouhan/wikiart-dl/blob/master/how-to-dl-2.gif?raw=true">
+<img src="https://github.com/pareshchouhan/wikiart-dl/blob/master/how-to-dl-2.gif?raw=true" />
